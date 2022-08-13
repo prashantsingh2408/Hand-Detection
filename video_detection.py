@@ -94,7 +94,7 @@ def start(avg_color, max_sensibility, video=True, path=None, left=False):
                                left)
 
             except Exception as e:
-                print e
+                print (e)
                 pass
 
             if not video:
